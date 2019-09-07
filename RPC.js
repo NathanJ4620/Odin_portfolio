@@ -1,11 +1,6 @@
-function computerPlay (){
-    let index = Math.floor(Math.random() * 3);
-    let rpc = ["Rock", "Paper", "Scissors"];
-    return rpc[index];
-}
+function twoPlayers(player1, player2) {
+    p1 = player1.toUpperCase();
+    p2 = player2.toUpperCase();
 
-console.log(computerPlay());
-
-function playRound (playerSelection, computerSelection){
     
 }
